@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: rgba(160, 157, 157, 0.288);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+width: 350px;
+background-color: whitesmoke;
+padding: 10px;
+border-radius: 8px;
+box-shadow:8px 9px 15px #cbced1,-8px -9px 15px #cbced1;
+
+}
+
+.display{
+    background-color: #ecf0f3;
+    height: 80px;
+    width: 97%;
+    text-align: right;
+    padding: 10px;
+    font-size: 30px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+.display1{
+    opacity: 0.7 ;
+    font-size: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+.display2{
+    overflow: hidden;
+}
+
+.temp-result{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.container .all-button{
+width: 100%;
+margin-top: 1.3rem;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-button .row .button{
+    width: 70px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffffff;
+    cursor: pointer;
+    display: inline-block;
+}
+.all-button .row .btn{
+    background-color: red !important;
+    color: white !important;
+}
+
+.all-button .row .btn1{
+    background-color: rgb(47, 248, 47) !important;
+    color: white !important;
+}
+
+.all-button .row .equal{
+    background-color: rgb(64, 221, 248) !important;
+    color: white !important;
+}
+
+.all-button .row .operation{
+    background-color: black;
+    color: white;
+}
+
+
+.all-button .row button:active{
+    box-shadow: inset 1px 1px 2px #babeec, inset -1px -1px 2px #fff;
+    font-size: 17px;
+}
